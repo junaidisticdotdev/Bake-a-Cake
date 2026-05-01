@@ -9,7 +9,7 @@ const OurTeam = () => {
   return (
     <div className='w-full min-h-screen flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8'>
       
-      <p className='italic font-medium text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-6 mb-8 sm:mb-10 md:mb-12 font-serif tracking-wide text-center'>Meet our team</p>
+      <p className='italic font-medium text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-6 mb-8 sm:mb-10 md:mb-12 font-serif tracking-wide text-center'>MEET OUR TEAM</p>
 
       <div className='w-full max-w-6xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 overflow-hidden'>
 

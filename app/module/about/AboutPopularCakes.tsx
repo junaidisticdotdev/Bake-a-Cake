@@ -31,10 +31,10 @@ const AboutPopularCakes = () => {
 <div className='h-auto w-full bg-[#e1f7ff] pt-4 relative overflow-hidden'>
 
   {/* heading  */}
-  <div className='flex flex-col items-center justify-center leading-tight mb-6 text-center lg:text-left'>
-    <p className='italic font-medium text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-6 mb-8 sm:mb-10 md:mb-12 font-serif tracking-wide text-center'>MOST POPULAR</p>
+  <div className='flex flex-col items-center justify-center px-4 py-8 lg:py-12'>
+    <p className='italic font-medium text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif tracking-wide text-center'>MOST POPULAR</p>
 
-    <p className='italic font-medium text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-6 mb-8 sm:mb-10 md:mb-12 font-serif tracking-wide text-center'>CAKES WE HAVE</p>
+    <p className='italic font-medium text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif tracking-wide text-center'>CAKES WE HAVE</p>
   </div>
 
   {/* main content left and right section with animations */}
