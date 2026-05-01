@@ -32,9 +32,9 @@ const AboutPopularCakes = () => {
 
   {/* heading  */}
   <div className='flex flex-col items-center justify-center leading-tight mb-6 text-center lg:text-left'>
-    <p className='italic mt-4 font-medium text-[40px] md:text-[55px] lg:text-[60px] font-serif tracking-wide'>MOST POPULAR</p>
+    <p className='italic font-medium text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-6 mb-8 sm:mb-10 md:mb-12 font-serif tracking-wide text-center'>MOST POPULAR</p>
 
-    <p className='italic font-medium text-[40px] md:text-[55px] lg:text-[60px] font-serif tracking-wide'>CAKES WE HAVE</p>
+    <p className='italic font-medium text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-6 mb-8 sm:mb-10 md:mb-12 font-serif tracking-wide text-center'>CAKES WE HAVE</p>
   </div>
 
   {/* main content left and right section with animations */}
