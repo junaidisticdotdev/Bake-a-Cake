@@ -8,9 +8,7 @@ const OurCategories = () => {
     <div className="W-full py-16 md:py-20 overflow-hidden bg-white">
       {/* Our categories */}
       <div className="max-w-[1400px] mx-auto px-6 flex flex-col items-center justify-center">
-        <p className="italic font-medium text-[50px] md:text-[60px] lg:text-[70px] px-4 md:px-0 mb-10 font-serif tracking-wide">
-          Our Categories
-        </p>
+        <p className='italic py-4 font-medium text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif tracking-wide text-center'>OUR CATEGORIES</p>
 
         {/* grids for cards in our categories  */}
         <div

@@ -19,7 +19,9 @@ const Header = () => {
         <li className='cursor-pointer hover:text-[#f79dc3] duration-300 transition-all font-serif tracking-wide font-medium'>  <Link href="/about"> ABOUT </Link> </li>
         <li className='cursor-pointer hover:text-[#f79dc3] duration-300 transition-all font-serif tracking-wide font-medium'>SERVICES</li>
         <li className='cursor-pointer hover:text-[#f79dc3] duration-300 transition-all font-serif tracking-wide font-medium'>GALLERY</li>
-        <li> <button className='cursor-pointer bg-[#e0f7ff] hover:bg-[#f796d3] shadow-sm hover:shadow-md duration-300 transition-all font-serif tracking-wide font-medium px-4 py-2 rounded-xl'> ORDER NOW</button> </li>
+        <li> <button className="px-6 py-3 bg-[#f79dc3] hover:bg-[#e08bb1] text-white rounded-full font-bold transition-all duration-300 shadow-md active:scale-95 uppercase tracking-wide text-sm cursor-pointer rounded-xl font-serif">
+              Order Now
+            </button> </li>
     </ul>
 
 <GiHamburgerMenu className='block md:hidden text-3xl cursor-pointer'

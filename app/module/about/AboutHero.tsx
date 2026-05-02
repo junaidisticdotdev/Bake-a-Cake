@@ -22,7 +22,7 @@ const AboutHero = () => {
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* Main Heading */}
-        <p className="text-center text-[40px] md:text-[50px] font-serif tracking-wide mb-4">
+        <p className="text-center text-[40px] md:text-[50px] font-serif tracking-wide mb-8">
           ABOUT US
         </p>
 
@@ -90,7 +90,7 @@ const AboutHero = () => {
             </div>
 
             {/* Read More Button */}
-            <button className="mt-10 mx-auto lg:ml-14 px-10 py-3 bg-[#E65A98] text-white cursor-pointer rounded-full text-lg font-medium hover:bg-black hover:text-white transition-colors duration-300 shadow-lg">
+            <button className=" ml-10 mt-10 px-6 py-3 bg-[#f79dc3] hover:bg-[#e08bb1] text-white rounded-full font-bold transition-all duration-300 shadow-xl active:scale-95 uppercase tracking-wide text-sm cursor-pointer rounded-xl font-serif">
               Read More
             </button>
           </motion.div>
