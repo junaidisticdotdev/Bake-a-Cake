@@ -17,23 +17,20 @@ const ServicesHero = () => {
       <div className='w-full min-h-screen flex flex-col justify-center items-center px-4 sm:px-6 lg:px-12 py-12'>
         
         {/* Responsive Heading */}
-        <motion.p 
-          initial={{ opacity: 0, y: -20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          className='italic font-medium text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-10 sm:mb-16 font-serif tracking-widest text-center text-slate-800'
+        <p className='italic font-medium text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-10 sm:mb-16 font-serif tracking-widest text-center text-slate-800'
         >
           OUR WORKS
-        </motion.p>
+        </p>
 
         {/* Responsive Grid System */}
         <div className='w-full max-w-7xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 sm:gap-6 md:gap-10'>
 
           {/* Our work card 1 - Slide from Left */}
           <motion.div
-            initial={{ x: -50, opacity: 0 }}
+            initial={{ x: -100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ ease: "easeOut", duration: 0.8, delay: 0.1 }}
+            viewport={{ once: false }}
+            transition={{ ease: "easeOut", duration: 1.3, delay: 0.2 }}
           >
             <OurWorksCard
               image="/Media/service-1.jpeg"
@@ -44,10 +41,10 @@ const ServicesHero = () => {
 
           {/* Our work card 2 - Scale Up */}
           <motion.div
-            initial={{ scale: 0.9, opacity: 0 }}
+            initial={{ scale: 0.8, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ ease: "easeOut", duration: 0.8, delay: 0.2 }}
+            viewport={{ once: false }}
+            transition={{ ease: "easeOut", duration: 1.2, delay: 0.3 }}
           >
             <OurWorksCard
               image="/Media/service-2.jpeg"
@@ -58,10 +55,10 @@ const ServicesHero = () => {
 
           {/* Our work card 3 - Slide from Right (Desktop) / Bottom (Mobile) */}
           <motion.div
-            initial={{ x: 50, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ ease: "easeOut", duration: 0.8, delay: 0.3 }}
+            initial={{ scale: 0.8, opacity: 0 }}
+            whileInView={{ scale: 1, opacity: 1 }}
+            viewport={{ once: false }}
+            transition={{ ease: "easeOut", duration: 1.2, delay: 0.3 }}
           >
             <OurWorksCard
               image="/Media/service-3.jpeg"
@@ -72,10 +69,10 @@ const ServicesHero = () => {
 
           {/* Our work card 4 - Slide from Right */}
           <motion.div
-            initial={{ x: 50, opacity: 0 }}
+            initial={{ x: 100, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ ease: "easeOut", duration: 0.8, delay: 0.4 }}
+            viewport={{ once: false }}
+            transition={{ ease: "easeOut", duration: 1.3, delay: 0.3 }}
           >
             <OurWorksCard
               image="/Media/service-4.jpeg"
