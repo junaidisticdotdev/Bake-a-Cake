@@ -26,7 +26,7 @@ const OurTeamCard = ({image, name, experty}: OurTeamCardType ) => {
 
       {/* experty */}
       <p className='text-sm sm:text-base md:text-lg text-gray-800 italic'>
-        {experty} Flavours
+        {experty}
       </p>
 
     </div>

@@ -8,9 +8,9 @@ const AboutHero = () => {
 
     <div>
       <div className="w-full h-16 bg-[#e0f7ff] flex items-center justify-start gap-6 pl-10">
-<p className="text-xl italic">Home</p>
+<p className="text-xl italic font-serif">HOME</p>
 <p>-</p>
-<p className="text-xl italic text-[#f79dc3] font-semibold">About</p>
+<p className="text-xl italic text-[#f79dc3] font-semibold font-serif">ABOUT</p>
       </div>
     <section className="relative w-full bg-white py-0 md:py-10 min-h-screen flex items-start lg:items-center overflow-hidden">
 

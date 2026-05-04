@@ -17,7 +17,7 @@ const Header = () => {
     <ul className='flex whitespace-nowrap items-center justify-center gap-10 tracking-tighter tracking-[0.2em] text-lg font-medium hidden md:flex'>
         <li className='cursor-pointer hover:text-[#f79dc3] duration-300 transition-all font-serif tracking-wide font-medium '> <Link href="/">HOME</Link></li>
         <li className='cursor-pointer hover:text-[#f79dc3] duration-300 transition-all font-serif tracking-wide font-medium'>  <Link href="/about"> ABOUT </Link> </li>
-        <li className='cursor-pointer hover:text-[#f79dc3] duration-300 transition-all font-serif tracking-wide font-medium'>SERVICES</li>
+        <li className='cursor-pointer hover:text-[#f79dc3] duration-300 transition-all font-serif tracking-wide font-medium'> <Link href="/services"> SERVICES </Link></li>
         <li className='cursor-pointer hover:text-[#f79dc3] duration-300 transition-all font-serif tracking-wide font-medium'>GALLERY</li>
         <li> <button className="px-6 py-3 bg-[#f79dc3] hover:bg-[#e08bb1] text-white rounded-full font-bold transition-all duration-300 shadow-md active:scale-95 uppercase tracking-wide text-sm cursor-pointer rounded-xl font-serif">
               Order Now

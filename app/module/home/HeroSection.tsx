@@ -83,7 +83,7 @@ const HeroSection = () => {
           className="relative p-8 md:p-12 rounded-3xl"
         >
           {/* Glassmorphism Layer: Ye text ko background se alag karega */}
-          <div className="absolute inset-0 bg-white/10 backdrop-blur-sm border border-white/20 rounded-3xl -z-10 shadow-2xl" />
+          <div className="absolute inset-0 bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl -z-10 shadow-2xl" />
 
           {/* Main Title - Your Pink Color */}
           <motion.div
@@ -95,7 +95,7 @@ const HeroSection = () => {
             ease: "easeInOut"
            }}
 
-          className="text-[#f79dc3] text-6xl md:text-8xl font-serif italic font-bold drop-shadow-xl leading-tighter text-center lg:text-left">
+          className="text-[#d679a1] text-6xl md:text-8xl font-serif italic font-bold drop-shadow-xl leading-tighter text-center lg:text-left">
             Cute Cakes
           </motion.div>
           
