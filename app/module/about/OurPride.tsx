@@ -12,25 +12,25 @@ const OurPride = () => {
         <div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 justify-center'>
 <PrideAwards
 image='/Media/Dolcetti-about-brand_01.png'
-title='BAKERY OF THE YEAR'
+title='BEST IN STATE'
 years='2018-2019'
 description='Owned by a famous Vermont baker, Denise Le'
 />
 <PrideAwards
-image='/Media/Dolcetti-about-brand_01.png'
+image='/Media/Dolcetti-about-brand_02.png'
 title='BAKERY OF THE YEAR'
 years='2021-2022'
 description='Owned by a famous Vermont baker, Denise Le'
 />
 <PrideAwards
-image='/Media/Dolcetti-about-brand_01.png'
-title='BAKERY OF THE YEAR'
+image='/Media/Dolcetti-about-brand_03.png'
+title='LUXURY CAKES IN TOWN'
 years='2023-2024'
 description='Owned by a famous Vermont baker, Denise Le'
 />
 <PrideAwards
-image='/Media/Dolcetti-about-brand_01.png'
-title='BAKERY OF THE YEAR'
+image='/Media/Dolcetti-about-brand_04.png'
+title='NATIONAL TASTE AWARD'
 years='2025-2026'
 description='Owned by a famous Vermont baker, Denise Le'
 />

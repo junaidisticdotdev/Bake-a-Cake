@@ -83,7 +83,7 @@ const HeroSection = () => {
           className="relative p-8 md:p-12 rounded-3xl"
         >
           {/* Glassmorphism Layer: Ye text ko background se alag karega */}
-          <div className="absolute inset-0 bg-white/10 backdrop-blur-md border border-white/20 rounded-3xl -z-10 shadow-2xl" />
+          <div className="absolute inset-0 bg-white/30 backdrop-blur-md border border-white/20 rounded-3xl -z-10 shadow-2xl" />
 
           {/* Main Title - Your Pink Color */}
           <motion.div
@@ -135,9 +135,12 @@ const HeroSection = () => {
            }}
           
           className="flex justify-center lg:justify-start">
-            <button className="mt-4 px-6 py-3 bg-[#f79dc3] hover:bg-[#e08bb1] text-white rounded-full font-bold transition-all duration-300 shadow-xl active:scale-95 uppercase tracking-wide text-sm cursor-pointer rounded-xl font-serif">
+             <a href={`https://wa.me/923084978902?text=${encodeURIComponent("Assalam-o-Alaikum! I want to order a Cute Cake from your bakery.")}`}
+    target="_blank" 
+    rel="noopener noreferrer" >
+           <button className="px-6 py-3 mt-4 bg-[#f79dc3] hover:bg-[#e08bb1] text-white rounded-full font-bold transition-all duration-300 shadow-md active:scale-95 uppercase tracking-wide text-sm cursor-pointer rounded-xl font-serif">
               Order Now
-            </button>
+            </button> </a>
           </motion.div>
         </motion.div>
       </div>

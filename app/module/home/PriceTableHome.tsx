@@ -2,7 +2,7 @@
 import PriceTableCard from "@/app/components/PriceTableCard";
 import React from "react";
 
-const PriceTable = () => {
+const PriceTableHome = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-10 w-full min-h-screen px-4 sm:px-6 lg:px-10 space-y-10 overflow-hidden">
 
@@ -80,4 +80,4 @@ const PriceTable = () => {
   );
 };
 
-export default PriceTable;
+export default PriceTableHome;

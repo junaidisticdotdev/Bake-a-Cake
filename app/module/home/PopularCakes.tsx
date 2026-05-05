@@ -5,7 +5,7 @@ import React from 'react';
 const PopularCakes = () => {
   const CakeVarieties = [
     {
-      title: " Confetti Cake with Vanilla Frosting",
+      title: "Pink Cake with Vanilla Frosting",
       desc: "A chilhood favorite made larger than life, our celebration sheet cake features delicious homemade sprinkles.",
       price: "$ 5.45"
     },
@@ -64,10 +64,10 @@ const PopularCakes = () => {
       {/* varities details in box */}
       <div className='flex flex-col space-y-4 pr-4'>
         {/* title */}
-        <p className='font-semibold italic text-xl md:text-2xl text-[#414844] group-hover:text-[#f79dc3] transition-colors '>{cake.title}
+        <p className='font-semibold italic text-xl md:text-2xl group-hover:text-[#f79dc3] transition-colors '>{cake.title}
         </p>
         {/* description */}
-        <p className='text-gray-700 text-sm md:text-base italic '>
+        <p className='text-gray-900 text-sm md:text-base italic '>
 {cake.desc}
         </p>
       </div>
@@ -96,7 +96,7 @@ transition={{
 
 className='w-full lg:w-2/5 flex justify-center lg:justify-end mt-12 lg:mt-0 overflow-hidden rounded-3xl'>
 
-<img src="/Media/popular-cake.jpg.jpeg" alt="Popular Cake"
+<img src="/Media/home-popular-cake.jpeg" alt="Popular Cake"
 className='w-[300px] md:w-[400px] lg:w-full object-contain rounded-3xl hover:scale-110 duration-600 transition' />
 </motion.div>
   </div>

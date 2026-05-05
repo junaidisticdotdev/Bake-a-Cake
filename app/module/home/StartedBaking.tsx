@@ -41,9 +41,7 @@ const StartedBaking = () => {
               Soon she decided to gather a team of like-minded people and start
               sher own sweet brand and open her own store.
             </p>
-            <button className="w-[150px] whitespace-nowrap px-6 py-3 bg-[#f79dc3] hover:bg-[#e08bb1] text-white rounded-full font-bold transition-all duration-300 shadow-xl active:scale-95 uppercase tracking-wide text-sm cursor-pointer rounded-xl font-serif">
-              Read More
-            </button>
+           
           </div>
         </motion.div>
 

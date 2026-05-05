@@ -92,9 +92,12 @@ const PriceTableCard = ({
             </div>
           ))}
         </div>
-        <button className="mt-4 px-6 py-3 bg-[#f79dc3] hover:bg-[#9bc8b4] transition-all duration-300  rounded-full font-bold transition-all duration-300 shadow-xl active:scale-95 uppercase tracking-wide text-sm cursor-pointer rounded-xl font-serif">
-          Order Now
-        </button>
+        <a href={`https://wa.me/923084978902?text=${encodeURIComponent("Assalam-o-Alaikum! I want to order a Cute Cake from your bakery.")}`}
+    target="_blank" 
+    rel="noopener noreferrer" >
+           <button className="px-6 py-3 bg-[#f79dc3] hover:bg-[#e08bb1] text-white rounded-full font-bold transition-all duration-300 shadow-md active:scale-95 uppercase tracking-wide text-sm cursor-pointer rounded-xl font-serif">
+              Order Now
+            </button> </a>
       </div>
     </div>
   );

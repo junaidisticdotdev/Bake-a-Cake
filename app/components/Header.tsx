@@ -19,9 +19,13 @@ const Header = () => {
         <li className='cursor-pointer hover:text-[#f79dc3] duration-300 transition-all font-serif tracking-wide font-medium'>  <Link href="/about"> ABOUT </Link> </li>
         <li className='cursor-pointer hover:text-[#f79dc3] duration-300 transition-all font-serif tracking-wide font-medium'> <Link href="/services"> SERVICES </Link></li>
         <li className='cursor-pointer hover:text-[#f79dc3] duration-300 transition-all font-serif tracking-wide font-medium'><Link href="/gallery"> GALLERY </Link></li>
-        <li> <button className="px-6 py-3 bg-[#f79dc3] hover:bg-[#e08bb1] text-white rounded-full font-bold transition-all duration-300 shadow-md active:scale-95 uppercase tracking-wide text-sm cursor-pointer rounded-xl font-serif">
+        <li>
+          <a href={`https://wa.me/923084978902?text=${encodeURIComponent("Assalam-o-Alaikum! I want to order a Cute Cake from your bakery.")}`}
+    target="_blank" 
+    rel="noopener noreferrer" >
+           <button className="px-6 py-3 bg-[#f79dc3] hover:bg-[#e08bb1] text-white rounded-full font-bold transition-all duration-300 shadow-md active:scale-95 uppercase tracking-wide text-sm cursor-pointer rounded-xl font-serif">
               Order Now
-            </button> </li>
+            </button> </a> </li>
     </ul>
 
 <GiHamburgerMenu className='block md:hidden text-3xl cursor-pointer'

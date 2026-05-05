@@ -64,10 +64,10 @@ const AboutPopularCakes = () => {
       {/* varities details in box */}
       <div className='flex flex-col space-y-4 pr-4'>
         {/* title */}
-        <p className='font-semibold italic text-xl md:text-2xl text-[#414844] group-hover:text-[#f79dc3] transition-colors '>{cake.title}
+        <p className='font-semibold italic text-xl md:text-2xl group-hover:text-[#f79dc3] transition-colors '>{cake.title}
         </p>
         {/* description */}
-        <p className='text-gray-700 text-sm md:text-base italic '>
+        <p className='text-gray-900 text-sm md:text-base italic '>
 {cake.desc}
         </p>
       </div>
@@ -95,7 +95,7 @@ transition={{
 
 className='w-full lg:w-2/5 flex justify-center lg:justify-end mt-12 lg:mt-0 overflow-hidden rounded-3xl border-4 border-white'>
 
-<img src="/Media/peach-cake.jpeg" alt="Popular Cake"
+<img src="/Media/hero-section-check3.jpeg" alt="Popular Cake"
 className='w-[300px] md:w-[400px] lg:w-full object-contain rounded-3xl hover:scale-105 duration-600 transition' />
 </motion.div>
   </div>

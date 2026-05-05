@@ -80,7 +80,7 @@ const Gallery = () => {
 
         {/* column 2 */}
         <div className="flex flex-col">
-                <GalleryImage src="/Media/gallery-3.jpg.jpeg" className="h-full gap-4 h-[300px] w-full lg:h-[616px]" />
+                <GalleryImage src="/Media/gallery-10.jpg.jpeg" className="h-full gap-4 h-[300px] w-full lg:h-[616px]" />
         </div>
 
         {/* column 3 */}
