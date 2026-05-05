@@ -38,8 +38,8 @@ const PriceTable = () => {
 
         <PriceTableCard
           image="/Media/donut-2.png"
-          title="Spring Cakes"
-          price="20"
+          title="Occasion Cakes"
+          price="30"
           delay={0.75}
           features={[
             "1 x Sweet Aniseed",
@@ -51,8 +51,8 @@ const PriceTable = () => {
 
         <PriceTableCard
           image="/Media/donut-3.png"
-          title="Spring Cakes"
-          price="20"
+          title="Wedding Cakes"
+          price="50"
           delay={1.5}
           features={[
             "1 x Sweet Aniseed",
@@ -64,8 +64,8 @@ const PriceTable = () => {
 
         <PriceTableCard
           image="/Media/donut-4.png"
-          title="Spring Cakes"
-          price="20"
+          title="Desserts"
+          price="10"
           delay={2.25}
           features={[
             "1 x Sweet Aniseed",

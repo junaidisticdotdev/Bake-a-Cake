@@ -46,7 +46,7 @@ const OurStory = () => {
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ duration: 1.4,ease:"easeInOut",
   delay: 0.3 }}
-            className="w-full lg:w-1/3 relative hidden sm:block overflow-hidden rounded-2xl mb-4"
+            className="w-full lg:w-2/5 relative hidden sm:block overflow-hidden rounded-2xl mb-4"
           >
            
             
@@ -76,12 +76,6 @@ const OurStory = () => {
 
               
             </div>
-
-
-            {/* Read More Button */}
-            <button className=" ml-10 mt-8 px-6 py-3 bg-[#f79dc3] hover:bg-[#e08bb1] text-white rounded-full font-bold transition-all duration-300 shadow-xl active:scale-95 uppercase tracking-wide text-sm cursor-pointer rounded-xl font-serif">
-              Read More
-            </button>
           </motion.div>
         </div>
 

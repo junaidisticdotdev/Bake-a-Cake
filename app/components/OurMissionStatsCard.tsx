@@ -7,20 +7,20 @@ const OurMissionStatsCard = ({ value }: { value: number }) => {
   const motionValue = useMotionValue(0);
   const rounded = useTransform(motionValue, (latest) => Math.round(latest));
   
-  // 1. Ref create karein taake element ko track kiya ja sake
   const ref = useRef(null);
   
-  // 2. useInView hook check karega ke component screen par hai ya nahi
-  // once: true ka matlab hai ke animation sirf pehli baar scroll karne pe chale
-  const isInView = useInView(ref, { once: true, margin: "-50px" });
+  // once: false ka matlab hai ke har baar view mein aane par trigger hoga
+  const isInView = useInView(ref, { once: false, margin: "-50px" });
 
   useEffect(() => {
-    // 3. Sirf tab animate karein jab isInView true ho
     if (isInView) {
+      // Jab view mein aaye to zero se start karein
+      motionValue.set(0); 
+      
       const controls = animate(motionValue, value, {
         duration: 2,
         ease: "easeOut",
-        delay:0.3
+        delay: 0.2 // Halka sa delay taake user ko start hota nazar aaye
       });
       return controls.stop;
     }

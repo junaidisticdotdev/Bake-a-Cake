@@ -44,7 +44,7 @@ const PriceTableCard = ({
 
       {/* 2. Top Pink Header Section */}
       <div className="bg-[#f79dc3] group-hover:bg-[#9bc8b4] transition-all duration-300 pt-24 pb-6 px-6 text-center rounded-lg">
-        <h3 className="text-3xl md:text-4xl font-serif font-bold text-slate-800 tracking-tight">
+        <h3 className="text-xl md:text-2xl font-serif font-bold text-slate-800 tracking-tight">
           {title}
         </h3>
       </div>
