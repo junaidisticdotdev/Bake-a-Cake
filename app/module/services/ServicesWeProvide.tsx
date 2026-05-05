@@ -26,8 +26,8 @@ initial={{x:-100, opacity:0}}
         whileInView={{x:0, opacity:1}}
 viewport={{once:false}}
         transition={{
-          duration: 1.5,
-          delay:0.3,
+          duration: 0.8,
+          delay:0.5,
           ease: "easeInOut"
         }}
 >
@@ -64,8 +64,8 @@ viewport={{once:false}}
         whileInView={{x:0, opacity:1}}
 viewport={{once:false}}
         transition={{
-          duration: 1.5,
-          delay:0.3,
+          duration: 0.8,
+          delay:0.5,
           ease: "easeInOut"
         }}>
       <ServiceProvideCard
@@ -81,8 +81,8 @@ viewport={{once:false}}
         whileInView={{x:0, opacity:1}}
 viewport={{once:false}}
         transition={{
-          duration: 1.5,
-          delay:0.3,
+          duration: 0.8,
+          delay:0.5,
           ease: "easeInOut"
         }}>
       <ServiceProvideCard
@@ -116,8 +116,8 @@ viewport={{once:false}}
         whileInView={{x:0, opacity:1}}
 viewport={{once:false}}
         transition={{
-          duration: 1.5,
-          delay:0.3,
+          duration: 0.8,
+          delay:0.5,
           ease: "easeInOut"
         }}>
       <ServiceProvideCard
