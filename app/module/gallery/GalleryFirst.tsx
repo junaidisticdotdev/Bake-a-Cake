@@ -53,7 +53,7 @@ const GalleryFirst = () => {
 <div className="text-center mb-12">
 <p className='italic font-medium text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif tracking-wide text-center'>OUR GALLERY</p>
         {/* categories / responsive on mobile  */}
-        <div className="flex flex-wrap justify-center gap-6 md:gap-10 mt-4 overflow-x-auto pb-2">
+        {/* <div className="flex flex-wrap justify-center gap-6 md:gap-10 mt-4 overflow-x-auto pb-2">
 
                 <p className="italic transition duration-300 cursor-pointer text-[#f79dc3] text-[18px] md:text-[20px]">All</p>
 
@@ -63,7 +63,7 @@ const GalleryFirst = () => {
                         </p>
                 ))}
                
-        </div>
+        </div> */}
 
 </div>
 

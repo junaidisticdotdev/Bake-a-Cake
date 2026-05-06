@@ -12,8 +12,10 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Cakery | Premium Bakery & Pastries",
-  description: "Owned by famous Vermont baker Denise Levine, offering the finest cakes and pastries.",
+  title: "The Rose Bakers",
+  icons: {
+    icon: '/icon.png', // Ye file public folder mein honi chahiye
+  },
 };
 
 export default function RootLayout({
