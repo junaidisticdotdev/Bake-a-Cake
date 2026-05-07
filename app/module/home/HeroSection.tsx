@@ -37,7 +37,7 @@ const HeroSection = () => {
             <p className="text-[#ff85bc] saturate-150 text-5xl md:text-7xl lg:text-8xl font-serif italic font-bold drop-shadow-xl leading-tight text-center lg:text-left whitespace-nowrap">
               The Rose
             </p>
-            <p className="text-[#ff85bc] saturate-150 -mt-2 md:-mt-10 text-5xl md:text-8xl lg:text-9xl font-serif italic font-bold drop-shadow-xl leading-tight text-center lg:text-left">
+            <p className="text-[#ff85bc] saturate-150 -mt-2 md:-mt-10 text-6xl md:text-8xl lg:text-9xl font-serif italic font-bold drop-shadow-xl leading-tight text-center lg:text-left">
               Bakers
             </p>
           </motion.div>
@@ -52,7 +52,7 @@ const HeroSection = () => {
           >
             <div className="flex items-center gap-4 justify-center lg:justify-start">
               <div className="w-10 h-[2px] bg-white/60"></div>
-              <p className="text-white text-lg md:text-xl font-light tracking-[0.3em] uppercase">
+              <p className="text-white text-lg md:text-xl font-light tracking-[0.2em] whitespace-nowrap uppercase">
                 Only For You
               </p>
             </div>
