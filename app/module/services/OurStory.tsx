@@ -7,7 +7,7 @@ const OurStory = () => {
   return (
 
     <div>
-    <section className="relative w-full bg-white py-0 md:py-10 min-h-screen flex items-start lg:items-center overflow-hidden">
+    <section className="relative w-full bg-white py-10 min-h-screen flex items-start lg:items-center overflow-hidden">
 
       {/* Decorative Background Boxes (Light Blue/Pink shapes) */}
         <div className="hidden sm:block absolute bottom-0 left-1/2 -translate-x-1/2 w-120 h-110 bg-[#e0f7ff]"></div>

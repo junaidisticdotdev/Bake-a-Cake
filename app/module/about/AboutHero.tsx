@@ -6,11 +6,11 @@ import { div } from "framer-motion/client";
 const AboutHero = () => {
   return (
 
-    <div>
-      <div className="w-full h-16 bg-[#e0f7ff] flex items-center justify-start gap-6 pl-10">
-<p className="text-xl italic font-serif">HOME</p>
-<p>-</p>
-<p className="text-xl italic text-[#f79dc3] font-semibold font-serif">ABOUT</p>
+    <div className="mt-20 sm:mt-0">
+        <div className="w-full h-16 bg-[#e0f7ff] flex items-center justify-start gap-4 sm:gap-6 pl-6 sm:pl-10">
+        <p className="text-sm sm:text-lg md:text-xl italic font-serif cursor-pointer hover:text-[#f79dc3] transition-colors">HOME</p>
+        <p className="text-gray-400">-</p>
+        <p className="text-sm sm:text-lg md:text-xl italic text-[#f79dc3] font-semibold font-serif uppercase tracking-wider">ABOUT</p>
       </div>
     <section className="relative w-full bg-white py-0 md:py-10 min-h-screen flex items-start lg:items-center overflow-hidden">
 
@@ -22,7 +22,7 @@ const AboutHero = () => {
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* Main Heading */}
-        <p className="text-center text-[40px] md:text-[50px] font-serif tracking-wide mb-8">
+        <p className="text-center text-[40px] md:text-[50px] font-serif tracking-wide sm:mb-8">
           ABOUT US
         </p>
 

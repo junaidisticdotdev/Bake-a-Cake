@@ -51,7 +51,7 @@ const GalleryFirst = () => {
 
 {/* heading */}
 <div className="text-center mb-12">
-<p className='italic font-medium text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-serif tracking-wide text-center'>OUR GALLERY</p>
+<p className='italic font-medium text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-serif tracking-wide text-center'>OUR GALLERY</p>
         {/* categories / responsive on mobile  */}
         {/* <div className="flex flex-wrap justify-center gap-6 md:gap-10 mt-4 overflow-x-auto pb-2">
 
