@@ -11,6 +11,7 @@ import PriceTableHome from './module/home/PriceTableHome'
 const page = () => {
   return (
     <div>
+      <div className="h-20" />
       <HeroSection/>
       <OurIntro/>
       <StartedBaking/>
