@@ -11,7 +11,7 @@ interface GalleryImageProps {
 
 const GalleryImage = ({ src, className = "" } : GalleryImageProps) => (
   <motion.div
-    className={`relative group overflow-hidden rounded-xl transition-all duration-400 hover:scale-105 ${className}`}
+    className={`relative group overflow-hidden rounded-xl overflow-hidden ${className}`}
   
     initial={{ scale:1, opacity:0}}
 whileInView={{ scale:1, opacity:1}}
@@ -26,7 +26,7 @@ transition={{
     <img
       src={src}
       alt="Gallery Item"
-      className="w-full h-full object-cover transition-transform duration-500"
+      className="w-full h-full object-cover transition-all duration-400 hover:scale-110 duration-700"
     />
     {/* // overlay */}
     {/* <div className="absolute inset-0 bg-[#f79dc3]/50 opacity-0 group-hover:opacity-100 transition-opacity duration-400 flex items-center justify-center">

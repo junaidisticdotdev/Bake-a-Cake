@@ -17,7 +17,7 @@ const OurStory = () => {
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* Main Heading */}
-        <p className="text-center text-[40px] md:text-[60px] font-serif tracking-wide mb-10">
+        <p className="text-center text-[40px] md:text-5xl uppercase italic leading-wide font-serif tracking-wide mb-10">
           Our Story
         </p>
 

@@ -11,7 +11,7 @@ const OurCategoryCard = ({ image, title, count} : OurCategoryCardprops) => {
   return (
     <motion.div className='w-[280px] group relative p-2 mx-auto flex flex-col items-center text-center rounded-sm transition duration-400 overflow-hidden'
     
-     initial={{ scale:0.9, opacity: 0 }}
+     initial={{ scale:1, opacity: 0 }}
               whileInView={{ scale:1, opacity: 1 }}
               viewport={{ once: false, amount: 0.2 }}
               transition={{

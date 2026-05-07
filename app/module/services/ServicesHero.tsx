@@ -17,7 +17,7 @@ const ServicesHero = () => {
       <div className='w-full min-h-screen flex flex-col justify-center items-center px-4 sm:px-6 lg:px-12 py-12'>
         
         {/* Responsive Heading */}
-        <p className='italic font-medium text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-10 sm:mb-16 font-serif tracking-widest text-center text-slate-800'
+        <p className='italic font-medium text-3xl sm:text-4xl md:text-5xl lg:text-5xl mb-10 sm:mb-16 font-serif tracking-widest text-center text-slate-800'
         >
           OUR WORKS
         </p>

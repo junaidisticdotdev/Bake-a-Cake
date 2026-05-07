@@ -28,7 +28,7 @@ const PopularCakes = () => {
 
   return (
     // main 
-<div className='h-auto w-full bg-[#e1f7ff] mt-10 py-10 relative overflow-hidden '>
+<div className='h-auto w-full bg-[#e1f7ff] py-10 relative overflow-hidden '>
 
   {/* heading  */}
   <div className='flex flex-col items-center justify-center leading-tight mt-6 text-center lg:text-left'>
@@ -48,7 +48,7 @@ const PopularCakes = () => {
 <div className='flex flex-col space-y-8 w-full lg:max-w-2xl'>
   {CakeVarieties.map ((cake,index) => (
     <motion.div
-    className='flex flex-col sm:flex-row items-start sm:items-center justify-between bg-white/90 backdrop-blur-md p-4 rounded-2xl border border-white/50 shadow-sm hover:shadow-md transition-all group'
+    className='flex flex-col sm:flex-row items-start sm:items-center justify-between bg-white/90 backdrop-blur-md p-4 rounded-2xl border border-white/50 shadow-sm hover:shadow-lg transition-all group'
 
     key={index}
     initial={{x:-100, opacity:0}}

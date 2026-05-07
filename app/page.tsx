@@ -7,6 +7,7 @@ import AboveGallery from './module/home/AboveGallery'
 import Gallery from './module/home/Gallery'
 import PopularCakes from './module/home/PopularCakes'
 import PriceTableHome from './module/home/PriceTableHome'
+import SweetSuccessStats from './module/home/SweetSuccessStats'
 
 const page = () => {
   return (
@@ -17,9 +18,11 @@ const page = () => {
       <StartedBaking/>
       <OurCategories/>
       <PriceTableHome/>
-      <AboveGallery/>
+      <SweetSuccessStats/>
       <Gallery/>
       <PopularCakes/>
+            <AboveGallery/>
+
     </div>
   )
 }

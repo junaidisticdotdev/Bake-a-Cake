@@ -24,7 +24,7 @@ const HeroSection = () => {
           className="relative p-6 rounded-3xl w-full lg:w-1/2 flex flex-col items-center lg:items-start"
         >
           {/* Glassmorphism Background Layer */}
-          <div className="absolute inset-0 bg-black/10 backdrop-blur-sm border border-white/20 rounded-3xl -z-10 shadow-2xl" />
+          <div className="absolute inset-0 bg-black/10 backdrop-blur-lg border border-white/20 rounded-3xl -z-10 shadow-2xl" />
 
           {/* Title Section */}
           <motion.div
@@ -37,7 +37,7 @@ const HeroSection = () => {
             <p className="text-[#ff85bc] saturate-150 text-5xl md:text-7xl lg:text-8xl font-serif italic font-bold drop-shadow-xl leading-tight text-center lg:text-left whitespace-nowrap">
               The Rose
             </p>
-            <p className="text-[#ff85bc] saturate-150 -mt-2 md:-mt-5 text-5xl md:text-8xl lg:text-9xl font-serif italic font-bold drop-shadow-xl leading-tight text-center lg:text-left">
+            <p className="text-[#ff85bc] saturate-150 -mt-2 md:-mt-10 text-5xl md:text-8xl lg:text-9xl font-serif italic font-bold drop-shadow-xl leading-tight text-center lg:text-left">
               Bakers
             </p>
           </motion.div>
@@ -50,25 +50,25 @@ const HeroSection = () => {
             transition={{ duration: 1.4, delay: 0.3, ease: "easeInOut" }}
             className="flex flex-col items-center lg:items-start"
           >
-            <div className="flex items-center gap-4 mt-6 justify-center lg:justify-start">
+            <div className="flex items-center gap-4 justify-center lg:justify-start">
               <div className="w-10 h-[2px] bg-white/60"></div>
               <p className="text-white text-lg md:text-xl font-light tracking-[0.3em] uppercase">
                 Only For You
               </p>
             </div>
 
-            <p className="text-white/90 mt-4 max-w-sm text-base md:text-lg font-light leading-relaxed text-center lg:text-left">
+            <p className="text-white/90 mt-2 max-w-sm text-base md:text-lg font-light leading-relaxed text-center lg:text-left">
               Handcrafted with love, baked to perfection. Discover the sweetness that defines your celebrations.
             </p>
 
             {/* Button Wrapper */}
-            <div className="mt-8 flex justify-center lg:justify-start w-full">
+            <div className="mt-4 flex justify-center lg:justify-start w-full">
                 <a
                 href={`https://wa.me/923084978902?text=${encodeURIComponent("Assalam-o-Alaikum! I want to order a Cute Cake.")}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 >
-                <button className="px-8 py-4 bg-[#ff85bc] hover:bg-[#e08bb1] text-white rounded-xl font-bold transition-all duration-300 shadow-md active:scale-95 uppercase tracking-widest text-sm font-serif cursor-pointer">
+                <button className="px-6 py-3 bg-[#ff85bc] hover:bg-[#e08bb1] text-white rounded-xl font-bold transition-all duration-300 shadow-md active:scale-95 uppercase tracking-widest text-sm font-serif cursor-pointer">
                     Order Now
                 </button>
                 </a>
