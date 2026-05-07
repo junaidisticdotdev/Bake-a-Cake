@@ -17,7 +17,7 @@ const PrideAwards = ({ image, title, years, description }: AwardCardProps) => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.8 }}
-      className="w-full max-w-xs bg-white py-10 px-4 flex flex-col items-center text-center shadow-sm border border-gray-50 group hover:shadow-md transition-shadow duration-300"
+      className="w-full max-w-xs bg-white py-10 px-4 flex flex-col items-center text-center shadow-sm border border-gray-50 group hover:scale-105 hover:shadow-md transition-all border-[#e0f7ff] border-2 duration-300"
     >
       {/* Logo Section */}
       <div className="relative w-32 h-20 mb-5 grayscale group-hover:grayscale-0 transition-all duration-500">

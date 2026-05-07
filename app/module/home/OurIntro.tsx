@@ -38,7 +38,7 @@ const OurIntro = () => {
             viewport={{ once: false, amount: 0.3  }}
             transition={{ duration: 1.2, ease: "easeOut", delay: 0.3 }}
 
-            className='absolute right-0 sm:right-[-1%] bottom-0 sm:bottom-[5%]'
+            className='absolute right-[-5%] sm:right-0 bottom-[-5%] sm:bottom-0'
           >
             <img 
               src="/Media/aboutUsHero.jpeg" 
@@ -57,8 +57,8 @@ const OurIntro = () => {
           transition={{ duration: 1.2, ease: "easeOut", delay: 0.3 }}
         >
           <p className='text-[18px] sm:text-[22px] md:text-[26px] italic text-gray-900 text-center leading-relaxed font-medium'>
-            Dolcetti’s ultimate goal is to satisfy our clients and their sweet taste buds. 
-            Our cakery provides superior products, being both attractive and yummy! 
+            The Rose Bakers ultimate goal is to satisfy our clients and their sweet taste buds. 
+            Our bakery provides superior products, being attractive and yummy! 
             Our regular clients state we are the best, but we never stop developing our recipes. 
             We continue exploring this fascinating sweet world!
           </p>

@@ -7,7 +7,7 @@ const PopularCakes = () => {
     {
       title: "Pink Cake with Vanilla Frosting",
       desc: "A chilhood favorite made larger than life, our celebration sheet cake features delicious homemade sprinkles.",
-      price: "$ 5.45"
+      price: "$ 5.99"
     },
     {
       title:" Flat Marshmallow Shapes",
@@ -16,7 +16,7 @@ const PopularCakes = () => {
     },
       {title: "Spicy Chocolate Cookies",
       desc: "Everything’s nice about Mexican hot chocolate, which is why we dreamed up a cookie that showcases its qualities.",
-      price: "$4.35"
+      price: "$3.99"
     },
     {
       title: "Pistachio Cannoli Cake",
@@ -48,7 +48,7 @@ const PopularCakes = () => {
 <div className='flex flex-col space-y-8 w-full lg:max-w-2xl'>
   {CakeVarieties.map ((cake,index) => (
     <motion.div
-    className='flex flex-col sm:flex-row items-start sm:items-center justify-between bg-white/60 backdrop-blur-md p-4 rounded-2xl border border-white/50 shadow-sm hover:shadow-md transition-all group'
+    className='flex flex-col sm:flex-row items-start sm:items-center justify-between bg-white/90 backdrop-blur-md p-4 rounded-2xl border border-white/50 shadow-sm hover:shadow-md transition-all group'
 
     key={index}
     initial={{x:-100, opacity:0}}

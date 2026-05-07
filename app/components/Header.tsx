@@ -43,7 +43,7 @@ const Header = () => {
             className="fixed top-0 left-0 right-0 z-[100] bg-white shadow-sm"
         >
             <header className='w-full h-20 flex justify-between items-center px-4 md:px-10'>
-                <img src="/Media/logo2.png" alt="Logo" className='h-24 lg:h-32 cursor-pointer' />
+                <img src="/Media/logo2.png" alt="Logo" className='h-24 lg:h-36 cursor-pointer' />
 
                 {/* Desktop Menu */}
                 <ul className='hidden md:flex items-center gap-8 text-md font-medium'>

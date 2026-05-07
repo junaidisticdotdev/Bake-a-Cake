@@ -72,7 +72,7 @@ const AboutHero = () => {
           >
             <div className="space-y-6 text-gray-900 italic text-lg md:text-xl leading-relaxed font-serif md:ml-4">
               <p>
-                Owned by a famous Vermont baker, Denise Levine, our place is proud to be one 
+                Owned by a famous The Rose baker, Denise Levine, our place is proud to be one 
                 of San Diego, California’s finest cake, and pastry bakeries.
               </p>
               

@@ -27,7 +27,7 @@ transition={{
 }}>
 
 {/* div for para */}
-<p className='italic px-2 text-[28px] sm:text-[45px] md:text-[60px]  lg:text-[70px] text-slate-800 h-1/2 '>Bake-a-cake is a family  owned bakery, with treasures the atmosphere.</p>
+<p className='italic px-2 text-[28px] sm:text-[45px] md:text-[60px]  lg:text-[70px] text-slate-800 h-1/2 '>The Rose Bakers is a family  owned bakery, with treasures the atmosphere.</p>
 
 
 </motion.div>

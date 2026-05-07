@@ -44,7 +44,7 @@ const OurTeam = () => {
       <OurTeamCard
       image ="/Media/chef-2.jpg.jpeg"
       name ="Patrick Pool"
-      experty ="Owned by a famous Vermont baker, Denise Levine, our place is proud to be one of San Diego"
+      experty ="Owned by a famous The Rose baker, Denise Levine, our place is proud to be one of San Diego"
       />
 </motion.div>
       {/* chef number 3 */}

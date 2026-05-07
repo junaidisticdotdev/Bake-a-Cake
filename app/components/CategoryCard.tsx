@@ -9,7 +9,7 @@ type OurCategoryCardprops = {
 };
 const OurCategoryCard = ({ image, title, count} : OurCategoryCardprops) => {
   return (
-    <motion.div className='w-[280px] group relative p-6 mx-auto flex flex-col items-center text-center rounded-sm transition duration-400 overflow-hidden'
+    <motion.div className='w-[280px] group relative p-2 mx-auto flex flex-col items-center text-center rounded-sm transition duration-400 overflow-hidden'
     
      initial={{ scale:0.9, opacity: 0 }}
               whileInView={{ scale:1, opacity: 1 }}
@@ -21,12 +21,12 @@ const OurCategoryCard = ({ image, title, count} : OurCategoryCardprops) => {
               }}>
       
       {/* image */}
-      <div className='w-full h-[320px]  border-4 border-[#cdeeff] rounded-xl flex items-center justify-center overflow-hidden mb-4'>
+      <div className='w-full h-[320px] border-4 border-[#cdeeff] rounded-xl flex items-center justify-center overflow-hidden mb-2'>
         <img src={image} alt={title} 
-        className='w-full h-full object-cover hover:scale-110 transition-all  duration-400' />
+        className='w-full h-full object-cover group-hover:scale-105 transition-all  duration-300' />
       </div>
       {/* title */}
-      <div className='text-2xl absolute bottom-20 cursor-pointer transition-all duration-300 hover:text-[#f79dc3] font-semibold italic tracking-wide text-gray-800 font-serif'>
+      <div className='text-2xl absolute bottom-20 cursor-pointer transition-all duration-300 group-hover:text-[#f79dc3] font-semibold italic tracking-wide text-gray-800 font-serif'>
         {title}
       </div>
       {/* pink line divider */}

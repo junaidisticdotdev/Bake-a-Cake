@@ -6,13 +6,13 @@ const Footer = () => {
   return (
     <footer className="w-full bg-white">
     
-      <div className='max-w-[1400px] mx-auto py-6 flex flex-col sm:flex-row items-center justify-between px-6 md:px-20 gap-8 sm:gap-0'>
+      <div className='max-w-[1400px] mx-auto flex flex-col sm:flex-row items-center justify-between px-6 md:px-20 gap-8 sm:gap-0'>
         
         {/* Logo and Copyright */}
         <div className='flex flex-col sm:flex-row gap-4 items-center justify-center text-center sm:text-left'>
-          <img src="/Media/logo1.png" alt="Logo" className="w-36 h-auto" />
+          <img src="/Media/logo2.png" alt="Logo" className="w-40 h-auto" />
           <p className='text-gray-500 text-sm md:text-base'>
-            Zemez © {new Date().getFullYear()}. All rights reserved.
+            Copyright © {new Date().getFullYear()}. All rights reserved.
           </p>
         </div>
 

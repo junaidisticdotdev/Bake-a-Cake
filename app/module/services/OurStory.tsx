@@ -10,14 +10,14 @@ const OurStory = () => {
     <section className="relative w-full bg-white py-0 md:py-10 min-h-screen flex items-start lg:items-center overflow-hidden">
 
       {/* Decorative Background Boxes (Light Blue/Pink shapes) */}
-        <div className="hidden sm:block absolute bottom-0 left-1/2 -translate-x-1/2 w-120 h-120 bg-[#e0f7ff]"></div>
+        <div className="hidden sm:block absolute bottom-0 left-1/2 -translate-x-1/2 w-120 h-110 bg-[#e0f7ff]"></div>
    
 
 
 
       <div className="max-w-7xl mx-auto px-6 relative z-10">
         {/* Main Heading */}
-        <p className="text-center text-[40px] md:text-[50px] font-serif tracking-wide mb-8">
+        <p className="text-center text-[40px] md:text-[60px] font-serif tracking-wide mb-10">
           Our Story
         </p>
 

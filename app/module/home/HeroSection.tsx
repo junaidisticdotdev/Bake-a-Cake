@@ -1,160 +1,90 @@
-// 'use client';
-// import React from 'react';
-// import { motion } from 'framer-motion';
-// import Image from 'next/image';
-
-
-// const MotionImage = motion(Image);
-
-// const HeroSection: React.FC = () => {
-//   return (
-//     <section>
-//       {/* Hero section main container */}
-//       <div className='w-full h-[calc(100vh-96px)] overflow-hidden relative'>
-
-//         {/* Background Video */}
-//         <video
-//           autoPlay
-//           muted 
-//           loop
-//           playsInline 
-//           src="/Media/hero-bg-video.webm" 
-//           className='object-cover object-center z-0 absolute inset-0 w-full h-full'
-//         />
-
-//         {/* Overlay for image visibility */}
-//         <div className=' absolute inset-0 z-10' />
-
-//         {/* Hero image container and animation */}
-//         <div className='absolute inset-0 z-20 flex items-center justify-center p-4'>
-//           <MotionImage
-//             src="/Media/section-1-img.webp"
-//             alt='Hero section logo image'
-
-//             width={850} 
-//             height={600}
-//             priority={true}
-
-//             className='w-full max-w-[300px] sm:max-w-[450px] md:max-w-[650px] lg:max-w-[850px] h-auto object-contain drop-shadow-2xl'
-            
-            
-//             initial={{ y: 50, opacity: 0 }}
-//             whileInView={{ y: 0, opacity: 1 }}
-//             viewport={{ once: false, amount: 0.3  }}
-
-//             transition={{
-//               duration: 1.2,
-//               ease: "easeOut",
-//               delay: 0.3
-//             }}
-//           />
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default HeroSection;
-
-
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <div className="w-full overflow-hidden relative h-screen">
+    <div className="w-full overflow-hidden relative h-screen bg-black">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="/Media/hero-section-check1.jpeg" 
-          alt="Bake a Cake Hero" 
-          className="object-cover w-full h-screen" 
+        <img
+          src="/Media/hero-section-check1.jpeg"
+          alt="Bake a Cake Hero"
+          className="object-cover w-full h-full"
         />
-        
+        {/* Mobile Overlay */}
+        <div className="absolute inset-0 bg-black/20 lg:bg-transparent" />
       </div>
 
-      {/* Content Side - Left side background styling */}
-      <div className="relative z-10 w-full md:w-1/2 h-screen flex flex-col items-center lg:items-start mt-10 px-6 md:px-16 lg:px-24">
+      {/* Main Container - PC par content ko left side par rakhega */}
+      <div className="relative z-10 w-full h-full flex items-center justify-center lg:justify-start px-6 md:px-16 lg:px-24">
         
-        {/* Is div ko text ke niche background dene ke liye use kiya hai */}
-        <motion.div
-          
-          className=" absolute p-8 md:p-6 rounded-3xl"
+        {/* Content Card - Desktop pe w-1/2 aur mobile pe full width */}
+        <motion.div 
+          className="relative p-6 rounded-3xl w-full lg:w-1/2 flex flex-col items-center lg:items-start"
         >
-          {/* Glassmorphism Layer: Ye text ko background se alag karega */}
-          <div className="absolute inset-0 bg-black/20 backdrop-blur-sm border border-white/20 rounded-3xl -z-10 shadow-2xl" />
+          {/* Glassmorphism Background Layer */}
+          <div className="absolute inset-0 bg-black/10 backdrop-blur-sm border border-white/20 rounded-3xl -z-10 shadow-2xl" />
 
-          {/* Main Title - Your Pink Color */}
+          {/* Title Section */}
           <motion.div
-          initial={{ opacity: 0, x: -80 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{once:false}}
-          transition={{ duration: 1.4,
-            delay: 0.3,
-            ease: "easeInOut"
-           }}
-
-          className="flex flex-col">
-<p className="text-[#ff85bc] saturate-150 text-5xl md:text-8xl font-serif italic font-bold drop-shadow-xl leading-tighter text-center lg:text-left">The Rose</p>   
-<p className="text-[#ff85bc] saturate-150 -mt-5 text-5xl md:text-9xl font-serif italic font-bold drop-shadow-xl leading-tighter text-center lg:text-left">Bakers</p>   
-       </motion.div>
-          
-          {/* for animation */}
-          <motion.div
-           initial={{ opacity: 0, x: 80 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          viewport={{once:false}}
-          transition={{ duration: 1.4,
-            delay: 0.3,
-            ease: "easeInOut"
-           }}
+            initial={{ opacity: 0, x: -80 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: false }}
+            transition={{ duration: 1.4, delay: 0.3, ease: "easeInOut" }}
+            className="flex flex-col"
           >
-          {/* Sub Title with Line */}
-
-          <div className="flex items-center gap-4 justify-center lg:justify-start mt-4">
-            <div className="w-10 h-[2px] bg-white/60"></div>
-            <p className="text-white text-lg md:text-xl font-light tracking-[0.3em] uppercase">
-              Only For You
+            <p className="text-[#ff85bc] saturate-150 text-5xl md:text-7xl lg:text-8xl font-serif italic font-bold drop-shadow-xl leading-tight text-center lg:text-left whitespace-nowrap">
+              The Rose
             </p>
-          </div>
-
-          {/* Description */}
-          <p className="text-white mt-4 max-w-sm text-lg font-light leading-relaxed text-center lg:text-left">
-            Handcrafted with love, baked to perfection. Discover the sweetness that defines your celebrations.
-          </p> 
+            <p className="text-[#ff85bc] saturate-150 -mt-2 md:-mt-5 text-5xl md:text-8xl lg:text-9xl font-serif italic font-bold drop-shadow-xl leading-tight text-center lg:text-left">
+              Bakers
+            </p>
           </motion.div>
 
-          {/* Button */}
+          {/* Subtitle & Description */}
           <motion.div
-           initial={{ opacity: 0, scale:0.7 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{once:false}}
-          transition={{ duration: 1.4,
-            delay: 0.3,
-            ease: "easeInOut"
-           }}
-          
-          className="flex justify-center lg:justify-start">
-             <a href={`https://wa.me/923084978902?text=${encodeURIComponent("Assalam-o-Alaikum! I want to order a Cute Cake from your bakery.")}`}
-    target="_blank" 
-    rel="noopener noreferrer" >
-           <button className="px-6 py-3 mt-4 bg-[#ff85bc] hover:bg-[#e08bb1] text-white rounded-full font-bold transition-all duration-300 shadow-md active:scale-95 uppercase tracking-wide text-sm cursor-pointer rounded-xl font-serif">
-              Order Now
-            </button> </a>
+            initial={{ opacity: 0, x: 80 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: false }}
+            transition={{ duration: 1.4, delay: 0.3, ease: "easeInOut" }}
+            className="flex flex-col items-center lg:items-start"
+          >
+            <div className="flex items-center gap-4 mt-6 justify-center lg:justify-start">
+              <div className="w-10 h-[2px] bg-white/60"></div>
+              <p className="text-white text-lg md:text-xl font-light tracking-[0.3em] uppercase">
+                Only For You
+              </p>
+            </div>
+
+            <p className="text-white/90 mt-4 max-w-sm text-base md:text-lg font-light leading-relaxed text-center lg:text-left">
+              Handcrafted with love, baked to perfection. Discover the sweetness that defines your celebrations.
+            </p>
+
+            {/* Button Wrapper */}
+            <div className="mt-8 flex justify-center lg:justify-start w-full">
+                <a
+                href={`https://wa.me/923084978902?text=${encodeURIComponent("Assalam-o-Alaikum! I want to order a Cute Cake.")}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                <button className="px-8 py-4 bg-[#ff85bc] hover:bg-[#e08bb1] text-white rounded-xl font-bold transition-all duration-300 shadow-md active:scale-95 uppercase tracking-widest text-sm font-serif cursor-pointer">
+                    Order Now
+                </button>
+                </a>
+            </div>
           </motion.div>
         </motion.div>
       </div>
 
-
-      {/* Right Side - Bakery of the Year Badge */}
-      <div className="absolute bottom-22 right-10 hidden md:block">
-        <motion.div 
+      {/* Badge - Only visible on Large screens */}
+      <div className="absolute bottom-10 right-10 hidden lg:block">
+        <motion.div
           animate={{ y: [0, -20, 0] }}
-          transition={{ duration: 3, repeat: Infinity }}
-          className="bg-white/30 backdrop-blur-lg border border-white/20 p-5 rounded-2xl text-white shadow-2xl"
+          transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
+          className="bg-white/20 backdrop-blur-lg border border-white/20 p-5 rounded-2xl text-white shadow-2xl"
         >
-          <p className="text-[12px] uppercase tracking-[0.1em] ">Bakery of the year</p>
+          <p className="text-[12px] uppercase tracking-[0.1em]">Bakery of the year</p>
           <p className="font-serif italic text-2xl text-[#ff85bc]">Winner 2026</p>
         </motion.div>
       </div>

@@ -10,7 +10,7 @@ const StartedBaking = () => {
       <div className="min-h-screen relative flex flex-col sm:flex-row justify-between items-center sm:px-0 py-0">
         {/* left side for detailed paragraph */}
         <motion.div
-          className="w-full flex flex-col items-end sm:w-1/2 z-20"
+          className="w-full flex flex-col items-center md:items-end sm:w-1/2 z-20"
           initial={{ x: -100, opacity: 0 }}
           whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once: false, amount: 0.3 }}
@@ -28,18 +28,18 @@ const StartedBaking = () => {
           {/* sub div for aligning detailed paragraphs */}
           <div className="flex flex-col px-5 sm:px-10 space-y-4 max-w-lg mt-4 sm:mt-4">
             <p className="italic text-xl">
-              Our story began in 2010, when Anna Francis, the founder of
-              Dolcetti, baked her fist cupcakes for sale and offered the bakery
+              Our story began in 2010, when Ahmed Mirza, the founder of
+              The Rose Bakers, baked his fist cupcakes for sale and offered the bakery
               to the nearest shop.
             </p>
             <p className="italic text-xl">
-              The cakery was awesome and she was proposed to become a regular
-              supplier of sweet bakery. Anna expanded the assortment and created
+              The bakery was awesome and he was proposed to become a regular
+              supplier of sweet bakery. MIrza expanded the assortment and created
               promotional Instagram account.
             </p>
             <p className="italic text-xl">
-              Soon she decided to gather a team of like-minded people and start
-              sher own sweet brand and open her own store.
+              Soon he decided to gather a team of like-minded people and start
+              his own sweet brand and open own store.
             </p>
            
           </div>
