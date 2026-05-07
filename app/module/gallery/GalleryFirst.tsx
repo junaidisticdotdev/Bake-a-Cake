@@ -11,9 +11,9 @@ interface GalleryImageProps {
 
 const GalleryImage = ({ src, className = "" } : GalleryImageProps) => (
   <motion.div
-    className={`relative group overflow-hidden rounded-xl cursor-pointer ${className}`}
+    className={`relative group overflow-hidden rounded-xl hover:scale-105 transition-all duration-400 ${className}`}
   
-    initial={{ scale:0.8, opacity:0}}
+    initial={{ scale:1, opacity:0}}
 whileInView={{ scale:1, opacity:1}}
 viewport={{ once:false, amount:0.2}}
 
@@ -29,11 +29,11 @@ transition={{
       className="w-full h-full object-cover transition-transform duration-500"
     />
     {/* // overlay */}
-    <div className="absolute inset-0 bg-[#f79dc3]/50 opacity-0 group-hover:opacity-100 transition-opacity duration-400 flex items-center justify-center">
+    {/* <div className="absolute inset-0 bg-[#f79dc3]/50 opacity-0 group-hover:opacity-100 transition-opacity duration-400 flex items-center justify-center">
      <p className="text-4xl text-slate-800 transform scale-80 group-hover:scale-100 transition-transform duration-400 italic [text-shadow:_0_0_10px_#fff,_0_0_20px_#e1f7ff]">
   Taste That Lasts
 </p>
-    </div>
+    </div> */}
   </motion.div>
 );
 
